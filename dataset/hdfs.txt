@@ -1,0 +1,43 @@
+HTTP/1.1 307 TEMPORARY_REDIRECT
+Cache-Control: no-cache
+Expires: Tue, 30 Apr 2019 03:01:26 GMT
+Date: Tue, 30 Apr 2019 03:01:26 GMT
+Pragma: no-cache
+Expires: Tue, 30 Apr 2019 03:01:26 GMT
+Date: Tue, 30 Apr 2019 03:01:26 GMT
+Pragma: no-cache
+Location: http://master:50075/webhdfs/v1/data/key-points.txt?op=OPEN&namenoderpcaddress=master:9000&offset=0
+Content-Type: application/octet-stream
+Content-Length: 0
+Server: Jetty(6.1.26)
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Content-Type: application/octet-stream
+Connection: close
+Content-Length: 2772
+
+HTTP/1.1 307 TEMPORARY_REDIRECT
+Cache-Control: no-cache
+Expires: Sat, 27 Apr 2019 14:25:02 GMT
+Date: Sat, 27 Apr 2019 14:25:02 GMT
+Pragma: no-cache
+Expires: Sat, 27 Apr 2019 14:25:02 GMT
+Date: Sat, 27 Apr 2019 14:25:02 GMT
+Pragma: no-cache
+Location: http://master:50075/webhdfs/v1/data/key-points.txt?op=OPEN&namenoderpcaddress=master:9000&offset=0
+Content-Type: application/octet-stream
+Content-Length: 0
+Server: Jetty(6.1.26)
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Content-Type: application/octet-stream
+Connection: close
+Content-Length: 2163
+
+{'URL': 'https://www.cnbc.com/2019/04/20/south-china-sea-beijing-to-show-new-warships-on-navy-anniversary.html', 'TITLE': 'China to show new warships as Beijing flexes military muscle on navy anniversary', 'TEXT': "Beijing unveiled a target of 7.5 percent rise in defense spending for this year, a slower rate than last year but still outpacing China's economic growth target.President Xi Jinping is overseeing a sweeping plan to refurbish the People's Liberation Army by developing everything from stealth jets to aircraft carriers as China ramps up its presence in the South China Sea and around self-ruled Taiwan.China has frequently had to rebuff concerns about its military intentions, especially as military spending continues to scale new heights."}
+{'URL': 'https://www.cnbc.com/2019/04/20/boeings-dreamliner-jet-now-facing-claims-of-manufacturing-issues-nyt-report.html', 'TITLE': "Boeing's Dreamliner jet is now facing claims of manufacturing issues", 'TEXT': 'The New York Times reported on Saturday that the newspaper\'s investigation of a Boeing plant "reveals a culture that often valued production speed over quality."The Times said it reviewed "hundreds of pages of internal emails, corporate documents and federal records."Boeing workers have filed numerous safety complaints with the federal government over issues ranging from shoddy manufacturing practices to tools and debris being left on planes, The New York Times reports.'}
+{'URL': 'https://www.cnbc.com/2019/04/20/world-federation-of-advertisers-ask-tech-companies-to-be-responsible.html', 'TITLE': 'Advertisers are calling on Facebook and Google to clean up their act or risk losing billions', 'TEXT': 'Mastercard CMO Raja Rajamannar, the new president of the World Federation of Advertisers, said he wants to see the "game plan" from social media platforms.Facebook, Instagram and YouTube have been under fire after displaying content ranging from self-harm to live-streaming of a terrorist attack in Christchurch, New Zealand.Since the platforms receive so much revenue from advertising, "They cannot completely ignore the rightful preferences of the advertisers," said Rajamannar.'}
