@@ -1,0 +1,57 @@
+version: '2'
+services:
+  jupyter:
+    image: jupyter/all-spark-notebook
+    container_name: jupyter
+    ports:
+      - "8889:8888"
+      - "4040:4040"
+      - "4041:4041"
+      - "9999:9999"
+    command: start-notebook.sh --NotebookApp.token=''
+    volumes:
+      - ./dataset:/home/jovyan/dataset
+      - ./spark:/home/jovyan/spark
+      - ./work:/home/jovyan/work
+    links:
+      - mysql
+      - hadoop
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=iii
+    volumes:
+      - /tmp/mysql_db/mysql_data:/var/lib/mysql
+      - /tmp/mysql_db/mysql_init:/docker-entrypoint-initdb.d/
+
+
+  hadoop:
+    image: orozcohsu/ha-sp-ze-zo-hi-fl:v7
+    container_name: hadoop
+    hostname: master
+    environment:
+      - "NODE_TYPE=master"
+    expose:
+      - "50070"
+      - "9000"
+    ports:
+      - "8088:8088"
+      - "50070:50070"
+      - "9000:9000"
+      - "2222:22"
+      - "8080:8080"
+      - "18080:18080"
+      - "10000:10000"
+      - "10002:10002"
+      - "9083:9083"
+    volumes:
+      - /tmp/docker-cluster-hadoop-name/:/data/dfs/name/
+      - /tmp/docker-cluster-hadoop-data/:/data/dfs/data/
+      - /tmp/docker-cluster-hadoop-logs/:/usr/local/hadoop/logs/
+      - /tmp/docker-cluster-zookeeper-logs/:/var/log/zookeeper/
+      - /tmp/docker-cluster-zeppelin-logs/:/usr/local/zeppelin/log
+      - ./mapreduce:/root/mapreduce

@@ -1,0 +1,11 @@
+nethandle: 129
+orgid: csu
+netname: east
+
+nethandle: 908
+orgid: dmo
+netname: west
+
+nethandle: 987
+orgid: csu
+netname: west
