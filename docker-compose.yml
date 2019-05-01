@@ -13,7 +13,6 @@ services:
     volumes:
       - ./dataset:/home/jovyan/dataset
       - ./spark:/home/jovyan/spark
-      - ./work:/home/jovyan/work
     links:
       - mysql
       - hadoop
