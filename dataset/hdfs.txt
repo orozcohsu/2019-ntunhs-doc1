@@ -1,30 +1,10 @@
 HTTP/1.1 307 TEMPORARY_REDIRECT
 Cache-Control: no-cache
-Expires: Tue, 30 Apr 2019 03:01:26 GMT
-Date: Tue, 30 Apr 2019 03:01:26 GMT
+Expires: Tue, 07 May 2019 01:29:25 GMT
+Date: Tue, 07 May 2019 01:29:25 GMT
 Pragma: no-cache
-Expires: Tue, 30 Apr 2019 03:01:26 GMT
-Date: Tue, 30 Apr 2019 03:01:26 GMT
-Pragma: no-cache
-Location: http://master:50075/webhdfs/v1/data/key-points.txt?op=OPEN&namenoderpcaddress=master:9000&offset=0
-Content-Type: application/octet-stream
-Content-Length: 0
-Server: Jetty(6.1.26)
-
-HTTP/1.1 200 OK
-Access-Control-Allow-Methods: GET
-Access-Control-Allow-Origin: *
-Content-Type: application/octet-stream
-Connection: close
-Content-Length: 2772
-
-HTTP/1.1 307 TEMPORARY_REDIRECT
-Cache-Control: no-cache
-Expires: Sat, 27 Apr 2019 14:25:02 GMT
-Date: Sat, 27 Apr 2019 14:25:02 GMT
-Pragma: no-cache
-Expires: Sat, 27 Apr 2019 14:25:02 GMT
-Date: Sat, 27 Apr 2019 14:25:02 GMT
+Expires: Tue, 07 May 2019 01:29:25 GMT
+Date: Tue, 07 May 2019 01:29:25 GMT
 Pragma: no-cache
 Location: http://master:50075/webhdfs/v1/data/key-points.txt?op=OPEN&namenoderpcaddress=master:9000&offset=0
 Content-Type: application/octet-stream
